@@ -1,0 +1,18 @@
+## Clock signal
+NET "clk"            LOC = "V10";
+Net "clk" TNM_NET = sys_clk_pin;
+TIMESPEC TS_sys_clk_pin = PERIOD sys_clk_pin 100000 kHz;
+
+## Buttons
+NET "rst"           LOC = "C9";
+NET "button"        LOC = "A8";
+
+## Leds
+NET "led_out<0>"       LOC = "U16";
+NET "led_out<1>"       LOC = "V16";
+NET "led_out<2>"       LOC = "U15";
+NET "led_out<3>"       LOC = "V15";
+NET "led_out<4>"       LOC = "M11";
+NET "led_out<5>"       LOC = "N11";
+NET "led_out<6>"       LOC = "R11";
+NET "led_out<7>"       LOC = "T11";
